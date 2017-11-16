@@ -1,0 +1,60 @@
+<div class="widgets">
+    <div class="row">
+        <ba-card title="User Roles" baCardClass="with-scroll" class="data-table-container">
+   
+            <table class="table table-striped" [mfData]="userLst" #mf="mfDataTable" >
+
+                <thead>
+                    <tr>
+                        <th class="contentFontSize headerMargin" style="width: 15% ;text-align: left;">
+                            <mfDefaultSorter [by]="username">Name</mfDefaultSorter>
+                        </th>
+                        <th class="contentFontSize headerMargin" style="width: 10%;">
+                            <mfDefaultSorter [by]="username">Roles</mfDefaultSorter>
+                        </th>
+                        <th class="contentFontSize headerMargin" style="width: 15% ;">
+                            <mfDefaultSorter [by]="username">Clients</mfDefaultSorter>
+                        </th>                        
+                        <th class="contentFontSize headerMargin"  style="width: 10% ; ">
+                            <mfDefaultSorter [by]="username">Provider</mfDefaultSorter>
+                        </th>
+                        <th class="contentFontSize headerMargin" style="width: 15% ; ">
+                            <mfDefaultSorter [by]="username">EmailId</mfDefaultSorter>
+                        </th>                       
+                        <th class="contentFontSize headerMargin" style="width: 25% ; ">
+                            <mfDefaultSorter by="name">Last Login</mfDefaultSorter>
+                        </th>
+                         <th class="contentFontSize headerMargin" style="width: 15% ;">
+                            <mfDefaultSorter by="name">Actions</mfDefaultSorter>
+                        </th>                
+                    </tr>               
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of mf.data">
+
+
+                        <td style="text-align:left;vertical-align: middle;"><p class="contentFontSize" style="margin-left:4px;">{{item.username}}</p></td>
+                        <td style="text-align:left;vertical-align: middle;">
+                            <ng-container *ngFor="let per of item.roleName">
+                                <span class="badge badge-pill badge-primary-dark">{{per.roleName}}</span>
+                            </ng-container>
+                        </td>
+                          <td style="text-align:left;vertical-align: middle;">
+                            <ng-container *ngFor="let client of item.clientsName">
+                                <span class="badge badge-pill badge-primary-dark">{{client.clientName}}</span>
+                            </ng-container>
+                        </td>                        
+                        <td style="text-align:left;vertical-align: middle;"><p class="contentFontSize" >{{item.provider}}</p></td>
+                        <td style="text-align:left;vertical-align: middle;"><p class="contentFontSize" >{{item.email}}</p></td>
+                        <td style="text-align:left;vertical-align: middle;"><p class="contentFontSize" >{{item.lastLogin}}</p></td>
+                        <td style="text-align:left;vertical-align: middle;">
+                            <button (click)="assignRole(item)" class="btn btn-primary btn-xs"><i class="ion-edit"></i></button>&nbsp;&nbsp;
+                             <button (click)="remove(item)" class="btn btn-danger btn-xs"><i class="ion-trash-a"></i></button> 
+                        </td>  
+</tr>
+                </tbody>                
+            </table>
+
+        </ba-card>
+    </div>
+</div>

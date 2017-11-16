@@ -1,3 +1,148 @@
 @import "card";
 @import "dropdown";
 @import "tabs";
+
+.badge-primary-dark {
+// background-color: #345b94;
+    background-color: #0a89c1;
+    font-weight: normal; 
+    font-size: 90% !important; 
+    font-family:"Roboto", sans-serif; 
+    line-height: 16px;
+    margin-bottom: 2px;
+}
+
+.modal-body-blue{
+background-color: #345b94;
+margin: 10px;
+}
+.modal-header-blue{
+background-color: #345b94;
+
+}
+.modal-content-blue{
+background-color: #345b94;
+}
+
+.modal-title {    
+    line-height: 1;
+    padding-top: 10px;
+    color: white;
+    text-align: center;   
+}
+
+.textLabel-color-white{
+color: white;
+}
+
+.textLabel-wrap{
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+}
+
+// .contentFontSize{
+//     font: 13px "Roboto", sans-serif;
+//     vertical-align: middle;
+// }
+
+.contentFontSize{
+    font: 14px "Roboto", sans-serif;
+    vertical-align: middle;    
+    line-height: 16px;
+    //padding-top: 9px;
+}
+
+.headerContentFontSize{
+    font: 18px "Roboto", sans-serif;
+}
+
+// .subHeaderContentFontSize{
+//     font: 15px "Roboto", sans-serif;
+// }
+
+.subHeaderContentFontSize{
+    font: 18px "Roboto", sans-serif;
+    line-height: 25px;
+    //color: #0a89c1;
+    color: #000;
+    font-weight: bold;
+}
+
+
+
+
+.dashboardContent{
+    line-height: 24px;
+}
+
+.closeModelBtn{
+    /* float: right; */
+    /* overflow: overlay; */
+    margin-top: -11px;
+    /* margin-right: -21px; */
+    position: absolute;
+    top: 26px;
+    right: 19px;
+    color: #0a89c1;
+}
+
+.labelTextMiddle{
+    line-height: 34px !important;
+}
+
+.menuLabelAlignment{
+width:500px;
+text-align: left !important;
+padding-left: 5px;
+// background: #c00;
+}
+
+.parentIDAlignment{
+    width: 250px;
+    // padding-left:20px;
+    // background:green;
+
+}
+
+.parentIDAlignment .contentFontSize{text-align: center}
+.parentIDHeader
+{
+text-align: center;
+}
+.actionsAlignment{width: 350px; text-align: center}
+.toggle-children-wrapper {position: relative !important; margin-right:5px;}
+.toggle-children {position: absolute !important}
+
+.tree-children {padding-left: 0px !important;  }
+
+.tree-children .tree-children td.menuLabelAlignment{padding-left:40px;}
+
+.tree-children td.menuLabelAlignment{padding-left:20px;}
+.toggle-children{padding-left: 10px; top:8px !important}
+.tree-children .toggle-children{padding-right: 40px; }
+.tree-children .tree-children .toggle-children{padding-right: 40px; }
+tree-node-expander + .node-content-wrapper {margin-left:5px;}
+td.actionsAlignment{
+
+}
+
+//Menu Edit and controls CSS
+
+.editMenuLabelInputBox
+{
+    max-width: 350px; 
+    float: left;
+    margin-bottom: 10px;
+
+}
+
+.saveMenuLabelBtn
+{
+float: left;
+font-size: 16px;
+margin: 8px 0px 10px 10px;
+}
+

@@ -1,0 +1,26 @@
+<div class="modal-content-blue">
+  <ba-card title="Roles" baCardClass="with-scroll">
+      <i class="fa fa-window-close closeModelBtn" aria-hidden="true" (click)="closeModal()"></i>
+    <form [formGroup]="assignRoleForm" (ngSubmit)="onSubmit(assignRoleForm.value)">
+      <div class="form-group">
+        <label for="inputEmail3" style="font-weight: bold;"  class="control-Editlabel textLabel-color-white" translate>Roles</label>
+        <div [formArrayName]="roleLst" class="textLabel-color-white" style="margin-left: 10px;">
+          <span *ngFor="let role of assignRoleForm.controls.roleLst.controls; let i = index;" [formGroup]="role">
+            <input type="checkbox" formControlName="checked" id="role_{{ role.controls.key.name }}">
+            <label class="control-Editlabel" attr.for="role_{{ role.controls.key.value }}">{{ role.controls.value.value }}</label>
+          </span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputEmail3" style="font-weight: bold;"  class="control-Editlabel textLabel-color-white" translate>Clients</label>
+        <div [formArrayName]="clientLst" class="textLabel-color-white" style="margin-left: 10px;">
+          <span *ngFor="let client of assignRoleForm.controls.clientLst.controls; let i = index;" [formGroup]="client">
+            <input type="checkbox" formControlName="checked" id="client_{{ client.controls.key.name }}">
+            <label class="control-Editlabel" attr.for="client_{{ client.controls.key.value }}">{{ client.controls.value.value }}</label>
+          </span>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </ba-card>
+</div>

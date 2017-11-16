@@ -1,0 +1,69 @@
+<div class="widgets">
+  <div class="row">
+    <ba-card title="Roles" baCardClass="with-scroll" class="data-table-container">
+      <div class="float-right">
+        <button class="btn btn-icon role-button" style="font-size: 13px;background-color: rgb(10,137,193)             
+                  " (click)="addRole('add','')">
+          <i class="ion-plus-round" style="color:white;">
+            <label style="color:white;">&nbsp; Add Role</label>
+          </i>
+        </button>
+      </div>
+      <br/>
+      <div class="panel panel-default">
+        <table class="table table-striped" [mfData]="roleLst | dataFilter : filterQuery" #mf="mfDataTable">
+
+          <thead>
+            <tr>
+              <th class="contentFontSize" style="width: 10%">
+                <mfDefaultSorter by="name">
+                  <p class="contentFontSize">Actions</p>
+                </mfDefaultSorter>
+              </th>
+              <th class="contentFontSize" style="width: 30%">
+                <mfDefaultSorter [by]="name">
+                  <p class="contentFontSize">Name</p>
+                </mfDefaultSorter>
+              </th>
+              <th class="contentFontSize" style="width: 60%">
+                <mfDefaultSorter by="component">
+                  <p class="contentFontSize">Permissions</p>
+                </mfDefaultSorter>
+              </th>
+            </tr>
+          </thead>
+          <tbody>              
+            <tr *ngFor="let item of mf.data">              
+              <td style="vertical-align: middle;">
+                <button (click)="addRole('edit',item)" class="btn btn-xs" style="background-color: rgb(10,137,193)             
+                              ">
+                  <i class="ion-edit" style="color:white;"></i>
+                </button>&nbsp;&nbsp;
+                <button (click)="removeRole(item)" class="btn btn-danger btn-xs">
+                  <i class="ion-trash-a"></i>
+                </button>
+              </td>
+              <td style="vertical-align: middle;">
+                <p class="contentFontSize">{{item.roleName}}</p>
+              </td>
+
+              <td style="vertical-align: middle;">
+                <ng-container *ngFor="let per of item.permission">                  
+                  <span class="badge badge-pill badge-primary-dark contentFontSize">{{per.name}}</span>
+                </ng-container>
+              </td>
+
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="5">
+                <mfBootstrapPaginator [rowsOnPageSet]="[5,10,15]"></mfBootstrapPaginator>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </ba-card>
+  </div>
+</div>

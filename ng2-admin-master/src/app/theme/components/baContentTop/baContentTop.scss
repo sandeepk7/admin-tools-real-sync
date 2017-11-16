@@ -3,36 +3,43 @@
 .content-top {
   padding-top: 13px;
   padding-bottom: 27px;
+  font: 18px "Roboto", sans-serif;
 }
 
 h1.al-title {
-  font-weight: $font-bold;
-  color: $default-text;
+  font-weight: normal;
+  //color: $default-text;
+
+  color: #0a89c1;
   float: left;
   width: auto;
   margin: 0;
   padding: 0;
-  font-size: 24px;
-  text-transform: uppercase;
+  font: 20px "Roboto", sans-serif;
+  //text-transform: uppercase;
   opacity: 0.9;
+  white-space: nowrap;
+  line-height: 60px;
+  font-weight: 400;
 }
 
 .al-breadcrumb {
   background: none;
-  color: $default-text;
+  color: #0a89c1;;
   padding: 0;
   margin: 0;
   float: right;
   padding-top: 11px;
   li {
-    font-size: 18px;
+    font: 13px "Roboto", sans-serif;
+    //font-size: 18px;
     font-weight: $font-normal;
     a {
-      color: $primary-light;
+      color: #0a89c1;
     }
 
     &.breadcrumb-item.active {
-      color: $default-text;
+      color: gray;
     }
   }
 }

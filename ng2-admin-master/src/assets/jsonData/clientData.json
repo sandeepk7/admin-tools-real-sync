@@ -1,0 +1,153 @@
+{
+    "-KnjFEKhMJzmA9NxhAy_": {
+        "santaclara": {
+            "clientdetails": {
+                "ClientViewModel": {
+                    "CampusMapFloorId": "17762",
+                    "CampusMapUrl": "",
+                    "CompanyName": "Santa Clara",
+                    "EventUrls": "",
+                    "ExcludeDistance": "True",
+                    "FirstAdAndroidLink": "",
+                    "FirstAdIOSLink": "",
+                    "FirstAdImage": "",
+                    "FirstAdMobile": "",
+                    "KioskClientID": "24",
+                    "KioskSplashScreenImageUrl": "",
+                    "MainHeaderText": "the Government Bldg.",
+                    "MainParkingLot": "0",
+                    "MapHeight": "3625",
+                    "MapWidth": "3625",
+                    "MapsTabLongText": "Campus",
+                    "MapsTabShortText": "Campus",
+                    "PixelRatio": "0.442",
+                    "SecondAdAndroidLink": "",
+                    "SecondAdIOSLink": "",
+                    "SecondAdImage": "",
+                    "SecondAdMobile": "",
+                    "ThirdAdAndroidLink": "",
+                    "ThirdAdIOSLink": "",
+                    "ThirdAdImage": "",
+                    "ThirdAdMobile": "",
+                    "address": "1500 Warburton Ave, Santa Clara, CA 95050",
+                    "apptLink": "",
+                    "apptText": "Let us know if you have feedback!",
+                    "clientID": "29",
+                    "cssPath": "css/logicjunction.min.css",
+                    "fax": "",
+                    "hasAlertManagement": "False",
+                    "hasDirectionPathAutomation": "True",
+                    "isThumbnailMapImagesVisible": "True",
+                    "kioskTimeout": "40",
+                    "locationName": "Santa Clara",
+                    "logoNormal": "",
+                    "logoSmall": "",
+                    "mainLatLng": "37.355137, -121.954875",
+                    "mapCssPath": "0/styles/0de0ecd7-fc7f-4c54-b9d8-d59ff10bcd23.css",
+                    "phone": "(408) 615-2200",
+                    "themeOverrideCssPath": "",
+                    "weblink": "santaclaraca.gov",
+                    "webtext": ""
+                },
+                "DirectoryColumns": {
+                    "ColumnNames": ""
+                },
+                "KioskFooterNavigationButtons": {
+                    "Directory": "component=DirectoryViewComponent&title=DIRECTORY&position=2&showTab=true&pageTitle=1 Government Building&tabIcon=directory&showIcon=false",
+                    "Home": "component=SplashScreenComponent&title=HOME&position=1&showTab=true&pageTitle=1 Government Building&tabIcon=home&showIcon=true",
+                    "Search": "component=SearchComponent&title=SEARCH FOR SERVICES&position=3&showTab=true&pageTitle=1 Government Building&tabIcon=search&showIcon=true",
+                    "Vicinity Map": "component=CampusComponent&title=VICINITY MAP&position=4&showTab=true&pageTitle=Vicinity Map&tabIcon=campus&showIcon=true"
+                },
+                "KioskSplashScreenButtons": {
+                    " ??????": "campus?language=StandardChinese",
+                    " Toca aqu� para comenzar": "campus?language=Spanish",
+                    "Ch?m v�o d�y d? b?t d?u": "campus?language=Vietnamese",
+                    "Touch Here To Begin": "campus?language=English"
+                },
+                "Kiosk_MapCssPath": {
+                    "CssPath": "https://ljimageblob.blob.core.windows.net/wayfinder-common/29/styles/abc1bf6a-327c-4868-80b7-c409df9a609d.css"
+                },
+                "legendArray": {
+                    "Building Entrance": "gift",
+                    "Department Entrance": "gift",
+                    "Elevator": "restroom",
+                    "Stairs": "vending",
+                    "You Are Here": "busstop"
+                }
+            },
+            "hostname": "santaclara"
+        }
+    },
+    "-KnjGUexlHqqNxxaHAtG": {
+        "clevelandclinic": {
+            "clientdetails": {
+                "ClientViewModel": {
+                    "CampusMapFloorId": "0",
+                    "CampusMapUrl": "",
+                    "CompanyName": "Cleveland Clinic",
+                    "EventUrls": "",
+                    "ExcludeDistance": "False",
+                    "FirstAdAndroidLink": "https://itunes.apple.com/us/app/cleveland-clinic-today/id605733460?mt=8",
+                    "FirstAdIOSLink": "https://itunes.apple.com/us/app/cleveland-clinic-today/id605733460?mt=8",
+                    "FirstAdImage": "https://ljimageblob.blob.core.windows.net/wayfinder-common/clevelandclinic_ad_cc_today_app.jpg",
+                    "FirstAdMobile": "https://ljimageblob.blob.core.windows.net/wayfinder-common/clevelandclinic_ad_cc_today_app_mobile.jpg",
+                    "KioskClientID": "11",
+                    "KioskSplashScreenImageUrl": "",
+                    "MainHeaderText": "the Cleveland Clinic Main Campus",
+                    "MainParkingLot": "33",
+                    "MapHeight": "2815",
+                    "MapWidth": "5000",
+                    "MapsTabLongText": "Campus",
+                    "MapsTabShortText": "Campus",
+                    "PixelRatio": "0.876194",
+                    "SecondAdAndroidLink": "http://health.clevelandclinic.org",
+                    "SecondAdIOSLink": "http://health.clevelandclinic.org",
+                    "SecondAdImage": "https://ljimageblob.blob.core.windows.net/wayfinder-common/clevelandclinic_ad_cc_health_hub.jpg",
+                    "SecondAdMobile": "",
+                    "ThirdAdAndroidLink": "http://clevelandclinic.yourdirectroute.com/#eventspage",
+                    "ThirdAdIOSLink": "http://clevelandclinic.yourdirectroute.com/#eventspage",
+                    "ThirdAdImage": "https://ljimageblob.blob.core.windows.net/wayfinder-common/clevelandclinic_ad_cc_hosted_events.jpg",
+                    "ThirdAdMobile": "",
+                    "address": "9500 Euclid Ave, <br/>Cleveland, OH 44195",
+                    "apptLink": "",
+                    "apptText": "<a href=\"mailto:askme@ccf.org\"><b>Have feedback on the site? Click here to email us your ideas!</b></a>",
+                    "clientID": "10",
+                    "cssPath": "css/themes/clevelandclinic/logicjunction_clevelandclinic.min.css",
+                    "fax": "",
+                    "hasAlertManagement": "True",
+                    "hasDirectionPathAutomation": "False",
+                    "isThumbnailMapImagesVisible": "False",
+                    "kioskTimeout": "40",
+                    "locationName": "Cleveland Clinic",
+                    "logoNormal": "cleveClinic_large.png",
+                    "logoSmall": "cleveClinic_small2.png",
+                    "mainLatLng": "41.502476, -81.621103",
+                    "mapCssPath": "0/styles/0de0ecd7-fc7f-4c54-b9d8-d59ff10bcd23.css",
+                    "phone": "800.223.2273",
+                    "themeOverrideCssPath": "css/themes/clevelandclinic/app_clevelandclinic.css",
+                    "weblink": "http://my.clevelandclinic.org/default.aspx",
+                    "webtext": "Cleveland Clinic"
+                },
+                "DirectoryColumns": {
+                    "ColumnNames": ""
+                },
+                "Kiosk_MapCssPath": {
+                    "CssPath": "https://ljimageblob.blob.core.windows.net/wayfinder-common/0/styles/0de0ecd7-fc7f-4c54-b9d8-d59ff10bcd23.css"
+                },
+                "legendArray": {
+                    "ATM": "atm",
+                    "Bus Stop": "busstop",
+                    "Cafeteria": "food",
+                    "Elevator": "elevators",
+                    "Gift Shop": "gift",
+                    "Information Desk": "help",
+                    "Parking": "parking",
+                    "Pharmacy": "rx",
+                    "Restrooms": "restroom",
+                    "Vending": "vending"
+                }
+            },
+            "hostname": "Clevelandclinic"
+        }
+    }
+}

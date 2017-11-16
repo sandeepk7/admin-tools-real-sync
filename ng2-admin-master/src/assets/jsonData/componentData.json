@@ -1,0 +1,38 @@
+{
+    "-KsI5L1hGQg338CDwcNk": {
+        "crud": "13",
+        "name": "Dashboard"
+    },
+    "-KsI5NZKHFihh8Et3X1p": {
+        "crud": "13",
+        "name": "Data Mangement"
+    },
+    "-KsI5PfHSRnwmnqSKky2": {
+        "crud": "13",
+        "name": "Mapping"
+    },
+    "-KsI5T4z5M84Nb0EIlU7": {
+        "crud": "13",
+        "name": "Setup"
+    },
+    "-KsI5VWscgPMPTfpVDTT": {
+        "crud": "13",
+        "name": "Reports"
+    },
+    "-KsI5X-zO7VDAVqNxU1d": {
+        "crud": "13",
+        "name": "Events"
+    },
+    "-KsI5_nkNXNAz1gx6nhj": {
+        "crud": "13",
+        "name": "Digital Signage"
+    },
+    "-KsI5bVRn2c-5p-Cjhik": {
+        "crud": "13",
+        "name": "Admin"
+    },
+    "-KsI5d720UocmtOn0sVH": {
+        "crud": "13",
+        "name": "Alerts"
+    }
+}

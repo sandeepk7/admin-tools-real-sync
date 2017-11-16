@@ -1,0 +1,23 @@
+<div class="modal-content-blue">
+  <ba-card title="Roles" baCardClass="with-scroll">
+      <i class="fa fa-window-close closeModelBtn" aria-hidden="true" (click)="closeModal()"></i>
+    <form [formGroup]="form" (ngSubmit)="onSubmit(form.value)">
+      <div class="form-group">
+        <label class="contentFontSize control-Editlabel" style="font-weight: bold;"  for="inputEmail3">RoleName</label>
+        <input [attr.disabled]="IsDisabled" type="text" class="form-control_EditInputBox" formControlName="roleName" id="inputEmail3" placeholder="RoleName">
+      </div>
+      <div class="form-group">
+        <label class="contentFontSize control-Editlabel" style="font-weight: bold;" for="inputEmail3">Permissions</label>
+        <div [formArrayName]="'componentLst'" class="textLabel-color-white" style="margin-left: 10px;">
+          <span *ngFor="let component of form.controls.componentLst.controls; let i = index;" [formGroup]="component">         
+            <span class="form-group checkbox rolecustom-checkbox">
+              <input  class="rolecustom-checkbox contentFontSize" type="checkbox" formControlName="checked" id="component_{{ component.controls.key.name }}">
+              <label class="contentFontSize control-Editlabel" attr.for="component_{{ component.controls.key.value }}">{{ component.controls.value.value }}</label>
+            </span>
+          </span>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </ba-card>
+</div>

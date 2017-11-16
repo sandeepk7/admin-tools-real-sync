@@ -1,0 +1,135 @@
+[
+    {
+        "roleName": "superadmin",
+        "id": "-KrePinIjsmf1uQgbdrD",
+        "checked": false,
+        "permission": [
+            {
+                "name": "Dashboard",
+                "crud": "13",
+                "id": "-KsI5L1hGQg338CDwcNk"
+            },
+            {
+                "name": "Data Mangement",
+                "crud": "13",
+                "id": "-KsI5NZKHFihh8Et3X1p"
+            },
+            {
+                "name": "Mapping",
+                "crud": "13",
+                "id": "-KsI5PfHSRnwmnqSKky2"
+            },
+            {
+                "name": "Reports",
+                "crud": "13",
+                "id": "-KsI5VWscgPMPTfpVDTT"
+            },
+            {
+                "name": "Events",
+                "crud": "13",
+                "id": "-KsI5X-zO7VDAVqNxU1d"
+            },
+            {
+                "name": "Admin",
+                "crud": "13",
+                "id": "-KsI5bVRn2c-5p-Cjhik"
+            }
+        ]
+    },
+    {
+        "roleName": "Guest",
+        "id": "-KsscwURCAF0BErzL9Cz",
+        "checked": false,
+        "permission": [
+            {
+                "name": "Dashboard",
+                "crud": "13",
+                "id": "-KsI5L1hGQg338CDwcNk"
+            },
+            {
+                "name": "Data Mangement",
+                "crud": "13",
+                "id": "-KsI5NZKHFihh8Et3X1p"
+            },
+            {
+                "name": "Reports",
+                "crud": "13",
+                "id": "-KsI5VWscgPMPTfpVDTT"
+            },
+            {
+                "name": "Events",
+                "crud": "13",
+                "id": "-KsI5X-zO7VDAVqNxU1d"
+            },
+            {
+                "name": "Digital Signage",
+                "crud": "13",
+                "id": "-KsI5_nkNXNAz1gx6nhj"
+            },
+            {
+                "name": "Alerts",
+                "crud": "13",
+                "id": "-KsI5d720UocmtOn0sVH"
+            }
+        ]
+    },
+    {
+        "roleName": "Client Admin",
+        "id": "-KtC-12HgeLMeGZ9sttT",
+        "checked": false,
+        "permission": [
+            {
+                "name": "Dashboard",
+                "crud": "13",
+                "id": "-KsI5L1hGQg338CDwcNk"
+            },
+            {
+                "name": "Data Mangement",
+                "crud": "13",
+                "id": "-KsI5NZKHFihh8Et3X1p"
+            },
+            {
+                "name": "Mapping",
+                "crud": "13",
+                "id": "-KsI5PfHSRnwmnqSKky2"
+            },
+            {
+                "name": "Setup",
+                "crud": "13",
+                "id": "-KsI5T4z5M84Nb0EIlU7"
+            },
+            {
+                "name": "Events",
+                "crud": "13",
+                "id": "-KsI5X-zO7VDAVqNxU1d"
+            },
+            {
+                "name": "Digital Signage",
+                "crud": "13",
+                "id": "-KsI5_nkNXNAz1gx6nhj"
+            },
+            {
+                "name": "Alerts",
+                "crud": "13",
+                "id": "-KsI5d720UocmtOn0sVH"
+            }
+        ]
+    },
+    {
+        "roleName": "ishu",
+        "id": "-KuUkXj-4CahNHKMy56o",
+        "checked": false,
+        "permission": [
+            {
+                "name": "Events",
+                "crud": "13",
+                "id": "-KsI5X-zO7VDAVqNxU1d"
+            },
+            {
+                "name": "Digital Signage",
+                "crud": "13",
+                "id": "-KsI5_nkNXNAz1gx6nhj"
+            }
+        ]
+    }
+]

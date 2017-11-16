@@ -21,7 +21,7 @@ export class BaThemeConfigProvider {
 
     // main functional color scheme
     this.colorScheme = {
-      primary: '#00abff',
+      primary: '#0a89c1',
       info: '#40daf1',
       success: '#8bd22f',
       warning: '#e7ba08',

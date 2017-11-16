@@ -1,0 +1,49 @@
+// client data detail model
+
+export class ClientDetailData {
+    CampusMapFloorId: string;
+    CampusMapUrl: string;
+    CompanyName: string;
+    EventUrls: string;
+    ExcludeDistance: string;
+    FirstAdAndroidLink: string;
+    FirstAdIOSLink: string;
+    FirstAdImage: string;
+    FirstAdMobile: string;
+    KioskClientID: string;
+    KioskSplashScreenImageUrl: string;
+    MainHeaderText: string;
+    MainParkingLot: string;
+    MapHeight: string;
+    MapWidth: string;
+    MapsTabLongText: string;
+    MapsTabShortText: string;
+    PixelRatio: string;
+    SecondAdAndroidLink: string;
+    SecondAdIOSLink: string;
+    SecondAdImage: string;
+    SecondAdMobile: string;
+    ThirdAdAndroidLink: string;
+    ThirdAdIOSLink: string;
+    ThirdAdImage: string;
+    ThirdAdMobile: string;
+    address: string;
+    apptLink: string;
+    apptText: string;
+    clientID: string;
+    cssPath: string;
+    fax: string;
+    hasAlertManagement: string;
+    hasDirectionPathAutomation: string;
+    isThumbnailMapImagesVisible: string;
+    kioskTimeout: string;
+    locationName: string;
+    logoNormal: string;
+    logoSmall: string;
+    mainLatLng: string;
+    mapCssPath: string;
+    phone: string;
+    themeOverrideCssPath: string;
+    weblink: string;
+    webtext: string;
+}
