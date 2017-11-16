@@ -1,0 +1,22 @@
+<div>
+    <div>
+            {{oSelectedClient.companyName}}
+            <i class="fa fa-window-close closeModelBtn" aria-hidden="true" (click)="closeModal()"></i>
+    </div>
+    
+        <form [formGroup]="formClientData" (ngSubmit)="onSubmit(formGroup.value)">
+            <div class="form-container">
+                <div class="row columns">
+                    <label class="contentFontSize control-Editlabel" style="font-weight: bold;"  for="input01">Client Name
+                        <input class="contentFontSize" type="text" class="form-control_EditInputBox" formControlName="strClientName">
+                    </label>
+                </div>
+                <div class="row columns">
+                    <label class="contentFontSize control-Editlabel" style="font-weight: bold;"  for="input01">Virtual Directory
+                        <input class="contentFontSize" type="text" class="form-control_EditInputBox" formControlName="strCompanyName">
+                    </label>
+                </div>
+            </div>
+            <input type="submit" class="button expanded" value="Submit" [disabled]="!formClientData.valid">
+        </form>
+</div>

@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "clientName": "santaclara",
+        "companyName": "Santa Clara"
+    },
+    {
+        "id": 2,
+        "clientName": "clevelandclinic",
+        "companyName": "Cleveland Clinic"
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "details": {
+            "clientName": "santaclara",
+            "companyName": "Santa Clara"
+        }
+    },
+    {
+        "id": "2",
+        "details": {
+            "clientName": "clevelandclinic",
+            "companyName": "Cleveland Clinic"
+        }
+    }
+]

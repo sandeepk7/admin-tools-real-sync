@@ -15,6 +15,29 @@ export const PAGES_MENU = [
         }
       },
       {
+        path: 'admin',
+        data: {
+          menu: {
+            title: 'general.menu.admin',
+            icon: 'fa fa-lock',
+            selected: false,
+            expanded: false,
+            order: 100,
+          }
+        },
+        children: [
+          {
+            path: 'client',
+            data: {
+              menu: {
+                title: 'general.menu.client',
+                icon: 'fa fa-users'
+              }
+            }
+          }
+        ]
+      },
+      {
         path: 'roles',
         data: {
           menu: {

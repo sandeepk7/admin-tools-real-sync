@@ -8,7 +8,8 @@ export const routes: Routes = [
     component: Pages,
     children: [
       { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
-      { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule' },      
+      { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule' },
+      { path: 'admin', loadChildren: './admin/admin.module#AdminModule' },      
       { path: 'roles', loadChildren: './role/role.module#RoleModule' },
       { path: 'users', loadChildren: './user/user.module#UserModule' },
     ]

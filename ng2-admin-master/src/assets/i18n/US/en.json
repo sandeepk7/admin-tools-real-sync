@@ -19,6 +19,8 @@
     },
     "menu": {
       "dashboard": "Dashboard",
+      "admin": "Admin",
+      "client": "Clients",
       "roles": "Roles",
       "users": "Users",
       "editors": "Editors",

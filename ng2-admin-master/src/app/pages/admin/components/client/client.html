@@ -1,0 +1,42 @@
+<div class="widgets">
+    <div class="row">
+        <ba-card title="Clients" baCardClass="with-scroll" class="data-table-container">
+            <div class="panel panel-default">
+                <table class="table table-striped">
+
+                    <thead>
+                        <tr>
+                            <th class="contentFontSize text-left width10per">
+                                Client Name
+                            </th>
+                            <th class="contentFontSize text-center width15per">
+                                Virtual Directory
+                            </th>
+                            <th class="contentFontSize text-center width15per">
+                                Actions
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of clientList">
+                            <td class="text-left vAlign-middle">
+                                <p class="contentFontSize margin4px">{{item.companyName}}</p>
+                            </td>
+                            <td class="text-center vAlign-middle">
+                                <p class="contentFontSize">{{item.clientName}}</p>
+                            </td>
+                            <td class="text-center vAlign-middle">
+                                <button (click)="openDetailModal(item)" class="btn btn-primary btn-xs">
+                                    <i class="ion-edit"></i>
+                                </button>&nbsp;&nbsp;
+                                <button (click)="removeClient(item)" class="btn btn-danger btn-xs">
+                                    <i class="ion-trash-a"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </ba-card>
+    </div>
+</div>

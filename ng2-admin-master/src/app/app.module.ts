@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TranslateService } from '@ngx-translate/core';
-import { CommonModule }  from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { DataTableModule } from 'angular2-datatable';
 
 
@@ -14,7 +14,7 @@ import { DataTableModule } from 'angular2-datatable';
  * Platform and Environment providers/directives/pipes
  */
 import { routing } from './app.routing';
-  
+
 // App is our top level component
 import { App } from './app.component';
 import { AppState, InternalStateType } from './app.service';
